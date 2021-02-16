@@ -1,7 +1,16 @@
 body{
     font-family: sans-serif;
+    text-align: center;
+}
+div#header{
+    width: 100%;
 }
 ul#navlist{
     list-style-type: none;
+    margin-top: 20px;
+}
+ul#navlist li{
     display: inline;
+    min-width: 100px;
+    margin-right: 20px;
 }
