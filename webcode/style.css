@@ -7,7 +7,7 @@ div#header{
 }
 ul#navlist{
     list-style-type: none;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 ul#navlist li{
     display: inline;
