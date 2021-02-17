@@ -8,6 +8,12 @@ div#header{
     width: 100%;
     text-align: center;
 }
+div#subheader{
+    margin:auto;
+    width: 50%;
+    min-width: 800px;
+    text-align: center;
+}
 ul.navlist{
     list-style-type: none;
     margin-top: 15px;
