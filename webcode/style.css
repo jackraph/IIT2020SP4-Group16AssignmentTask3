@@ -1,6 +1,9 @@
 body{
     font-family: sans-serif;
-    background-image: linear-gradient(-27deg , rgb(200, 255, 200), white, white, white, white, white);
+    background-image: linear-gradient(-27deg , rgb(200, 255, 200), white, white);
+}
+body#projectbody{
+    background-image: linear-gradient(-27deg , rgb(200, 255, 200),  white, white, white, white);
 }
 h1{
     text-align: center;
