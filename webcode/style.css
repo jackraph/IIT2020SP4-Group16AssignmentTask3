@@ -33,3 +33,18 @@ img{
     /*margin:auto;*/
     height: auto;
 }
+a:link {
+    color: black;
+  }
+  
+a:visited {
+    color: black;
+  }
+  
+a:hover {
+    color: rgb(30, 192, 30);
+  }
+  
+a:active {
+    color:  rgb(30, 192, 30);
+  }
