@@ -46,6 +46,12 @@ img{
     /*margin:auto;*/
     height: auto;
 }
+img.border{
+    border-width: medium;
+    border-style: solid;
+    border-color: rgb(141, 199, 141);
+    margin-top: 15px;
+}
 a:link {
     color: black;
   }
