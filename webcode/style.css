@@ -30,6 +30,7 @@ div#subheader{
 p{
     max-width: 600px;
 }
+
 ul.navlist{
     list-style-type: none;
     margin-top: 15px;
@@ -44,6 +45,10 @@ div.text{
     width: 50%;
     min-width: 400px;
     max-width: 600px;
+}
+div.text ul{
+    /*list-style-position: inside;
+    margin-left: 0px;*/
 }
 img{
     max-width: 100%;
