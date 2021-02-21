@@ -41,9 +41,120 @@
 
     <div class="text">
         
-        <h2>Plans and Progress</h2>
+        <h2>Plans and Progress [Game Design Doc]</h2>
 
-        <p></p>
+        <h3>Game Overview</h3>
+        <h4>Introduction and Game Genre</h4>
+        <p>
+          Snake is an old game popularised via Nokia mobile phones. It is classified as a casual game. It is simple to grasp, games are quick to finish and quick to restart. In the Nokia version, the player would guide a snake around an area trying to eat apples while avoiding obstacles. Eating apples added to the score and increased the snake’s length. The further you went, the greater the challenge as your own snake body acted as an obstacle. The player could prompt the snake to turn left or right while the snake charged ahead automatically. Games typically last less than 5 minutes which places it directly in the casual game genre. Our version of Nokia will aim to add a local two player mode and additional levels.
+        </p>
+        
+        <h4>Target Audience Identification and Research</h4>
+        <p>Aside from our own group learning from the game design process, other potential target audience groups might be:</p>
+        <ul>
+          <li>People who owned Nokia phones in the 90’s who played Snake on their phone.</li>
+          <li>People who own a computer and want to play a quick game.</li>
+          <li>People who want to play a couch versus game such as parents playing with their children.</li>
+          <li>Mobile gamers.</li>
+          <li>Retro game fans.</li>
+          <li>Casual game fans.</li>
+        </ul>
+
+        <h4>Game Main Ideas and Themes</h4>
+        <p>Part of the appeal of snake is nostalgia for Nokia mobile phones. The nostalgia of trying to beat friends high scores helped the idea of having multiple players play snake at the same time. This led to the idea for a competitive version of snake with customisable levels to keep it fresh and innovative. While the narrative is not deep, the themes  mainly evolve around competition and having fun with your friends and family.</p>
+
+        <h4>Players’ Roles and Tasks</h4>
+        <p>Two players will compete to stay alive for longer, and to achieve the highest score. Players will need to guide their snake around the play area, collecting items and avoiding the walls and snake bodies.</p>
+
+        <h3>Game Mechanics</h3>
+        <p>While our immediate goal is to get the game to a version where all core features work as expected, our ongoing goal will be to add additional mechanics to provide variety, new challenge and modes of play. </p>
+
+        <h4>Key Mechanic/s </h4>
+        <p>The snakes will move forward by themselves. The players will need decide when to turn their snake in order to avoid obstacles. If the snake encounters an obstacle the player will lose. Walls, other snakes and the snake’s own body act as obstacles. As the snakes collect items, their bodies will elongate acting as further obstacles for the player to avoid. Each item collected will also add to the player’s score.</p>
+
+        <h4>Additional Mechanics</h4>
+        <p>As we complete the core functions we will look to add additional mechanics to the game to add to the challenge and variety of play. </p>
+        <ul>
+          <li>We would like to add a high score function so that players can compete against themselves and their friends and family. </li>
+          <li>We would add timed levels where the player has to get a certain score before the timer runs down. </li>
+          <li>The player should be able to choose from a set of levels before each round. </li>
+          <li>We would like to add the ability for players to customise their own levels.</li>
+          <li>Increasing the player count to 4 will create a more frantic and strategic game.</li>
+          <li>Multiplayer network play</li>
+          <li>Players can choose to play the game at a higher or lower speed.</li>
+          <li>Players have  more than one life so the game lasts longer.</li>
+        </ul>
+
+        <p>In thinking about mechanics, we have considered Jeremy Schell’s ’The Elemental Tetrad’ which considers the interrelationship between four key aspects of game design. Technology (which is most visible to the developer), Mechanics, Story, and Aesthetics (which is most visible to the player.)</p>
+         <Figure>
+          <caption>Schell, J 2008,’The Elemental Tetrad’. The Art of Game Design : A Book of Lenses, Third Edition, p.55</caption>
+          <img class="border" src="assets/elemental_tetrad.png"/>
+        </Figure>
+        
+        <h4>Player Engagement and Fun</h4>
+        <p>Nicole Lazzaro’s Four Keys to fun describes four areas of fun that games make use when enabling players to have fun. Our version of Snakes will combine three of these areas. </p>
+        <ul>
+          <li>Simple fun: The players will be enchanted with embodying the snake and experiencing the satisfaction of seeing it elongate when it collects items.</li>
+          <li>Hard fun: The player’s success in collecting items will provide them opportunity to experience further challenge as the elongated snake body will make safely navigating the play area more difficult.</li>
+          <li>People fun: The two players will be sitting side by side, building a social bond through competition and the mutual success and challenge of having two long snakes in the small play area. </li>
+        </ul>
+
+        <Figure>
+          <caption>Lazzaro, N 2004, ‘4Keys2Fun’, Nicole Lazzaro <http://www.nicolelazzaro.com/the4-keys-to-fun> 
+          </caption>
+          <img class="border" src="assets/4Keys2Fun.jpg"/>
+        </Figure>
+
+       <h3>Game Story and Narrative</h3>
+        
+       <h4>Game Plot Summary and Discussion</h4>
+        <p>Two snakes try to eat all the food, grow the longest and survive for as long as possible.</p>
+
+        <h4>Accompanying Narrative Resources</h4>
+        <p>The narrative of our version of Snakes will build through the relationship of the two players as they compete and interact. </p>
+
+        <h3>Game Aesthetics</h3>
+        <p>Our game will have the emotional pull of a retro game, the psychological pull of challenge, the pull of simply enjoying the snake get longer. With our mechanics, our design and our concept, we want to create an aesthetic that keeps the player wanting more.</p>
+
+        <h4>Concept Art </h4>
+        <p>The art of the game evolved during the development of the prototypes.  The focus was mainly on the snake itself as the art also needed to work nicely with the growth mechanic. Due to the snake increasing in length each time a pellet is consumed the body of the snake needed to be modular in 4 directions. While this limited our artistic options, we were able to create some interesting designs that met this requirement.</p>
+
+        <img class="border" src="assets/concept1.png"/>
+        <img class="border" src="assets/concept2.png"/>
+        <img class="border" src="assets/concept3.png"/>
+        <img class="border" src="assets/concept4.png"/>
+
+        <p>The level design came second to our snake as in the full game independent levels could also feature interesting colour designs and patterns in order to create many unique experiences while keeping the same core gameplay loop.</p>
+
+        <img class="border" src="assets/level1.png"/>
+        <img class="border" src="assets/level2.png"/>
+
+        <h3>Game Technology</h3>
+        <h4>Game Engine and Development Technology</h4>
+        <p>Various programs were used in the creation of the prototype. These same programs have sufficient functionality to create the full game with the only exception being some form of audio creation tool since the prototype uses pre-created music. The programs used in the prototype were: </p>
+        <ul>
+          <li>Unity</li>
+          <li>Paint.net</li>
+          <li>Eclipse IDE</li>
+        </ul>
+
+        <h4>Player Access Technology</h4>
+        <p>The coded prototype is currently only supported on computer using a keyboard however the final product would have support for various platforms such as:</p>
+        <ul>
+          <li>PC/ Keyboard</li>
+          <li>PC/ Controller</li>
+          <li>Consoles/ Controller</li>
+          <li>Mobile</li>
+        </ul>
+
+        <h4>Accessibility Provisions</h4>
+        <p>While the prototypes don’t contain any accessibility provisions a final product would. Due to the simplicity of the movement system many accommodations could be made in order to aid disabled gamers. Some examples of these accommodations would be:</p>
+        <ul>
+          <li>Mappable movement keys</li>
+          <li>Audio feedback on snake/game actions</li>
+          <li>Controller Support</li>
+          <li>Colour-blind modes</li>
+        </ul>
 
     </div>
 
